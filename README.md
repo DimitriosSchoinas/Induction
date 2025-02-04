@@ -96,13 +96,21 @@ São Triângulos, Senhor, são Triângulos
 O Triângulo de Pascal é uma representação matricial dos coeficientes binomiais, com grande utilidade em teoria das probabilidades, combinatória e álgebra. O seguinte diagrama apresenta as 8 primeiras linhas do triângulo de Pascal:
 
 1
+
 1 1
+
 1 2 1
+
 1 3 3 1
+
 1 4 6 4 1
+
 1 5 10 10 5 1
+
 1 6 15 20 15 6 1
+
 1 7 21 35 35 21 7 1
+
 As linhas e colunas do triângulo são numeradas começando ambas em 0 (zero). Assim, para um triângulo com $n$ linhas e $k$ colunas, o número que se encontra na última linha e última coluna terá índices $n - 1$ e $k - 1$.
 
 Cada elemento do triângulo pode ser construído de forma recursiva, utilizando apenas informação da linha anterior. Seja nk o elemento da $n$-ésima linha, $k$-ésima coluna do triângulo. O valor de tal elemento é dado pela seguinte equação:
@@ -124,26 +132,49 @@ Poderá utilizar as funções auxiliares que achar conveniente.
 
 Exemplos
 Triângulo de Pascal de 9 linhas
+
 1
+
 1 1
+
 1 2 1
+
 1 3 3 1
+
 1 4 6 4 1
+
 1 5 10 10 5 1
+
 1 6 15 20 15 6 1
+
 1 7 21 35 35 21 7 1
+
 1 8 28 56 70 56 28 8 1
+
+
 Triângulo de Pascal de 10 linhas
+
 1
+
 1 1
+
 1 2 1
+
 1 3 3 1
+
 1 4 6 4 1
+
 1 5 10 10 5 1
+
 1 6 15 20 15 6 1
+
 1 7 21 35 35 21 7 1
+
 1 8 28 56 70 56 28 8 1
+
 1 9 36 84 126 126 84 36 9 1
+
+
 Querido, a Indução Mudou a Casa
 A Ana e o Bernardo vão começar obras de remodelação da cozinha. Uma das ideias que gostariam de implementar é colocar um friso de azulejos ao longo de toda a parede. Sendo ambos grandes amantes da decoração de interiores, acordaram nas seguintes regras de estética:
 
